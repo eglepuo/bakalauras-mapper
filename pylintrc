@@ -1,0 +1,9 @@
+[MASTER]
+ignore-patterns=__init__.py
+
+[MESSAGES CONTROL]
+disable=missing-module-docstring,
+    missing-class-docstring,
+
+[FORMAT]
+max-line-length=120

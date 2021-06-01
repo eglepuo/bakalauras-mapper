@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mapper"
+version = "7.7.7"
+description = ""
+authors = ["dolan duck <dolan@duck.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Pillow = "^8.1.2"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+pylint = "^2.5.2"
+black = "^19.10b0"
+mypy = "^0.770"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+line-length = 120
